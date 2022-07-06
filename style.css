@@ -1,0 +1,369 @@
+/* poppins font  */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+/* inter font  */
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap");
+/* Global style  */
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Inter", sans-serif;
+}
+body {
+  margin: auto;
+}
+.btn {
+  background: #17b5ba;
+  color: #fff;
+  border: none;
+  padding: 16px 12px;
+  border-radius: 3px;
+  font-size: 18px;
+  font-weight: 600;
+  cursor: pointer;
+  border-radius: 5px;
+  font-family: "Inter", sans-serif;
+}
+h1,
+h2,
+h5 {
+  font-family: "Inter", sans-serif;
+}
+h1 {
+  font-size: 65px;
+  font-weight: 700;
+}
+h2 {
+  font-size: 45px;
+  font-weight: 700;
+}
+h5 {
+  font-size: 24px;
+  font-weight: 700;
+}
+p {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+
+}
+
+/* HeroSection style */
+
+.herosection {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(to bottom, transparent, #121212),
+    url("./images/donation5.jpg");
+  color: white;
+}
+
+.herosection h1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  font-size: 60px;
+  letter-spacing: 2px;
+  text-align: center;
+}
+.herosection p {
+  position: absolute;
+  top: 65%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  font-size: 20px;
+  letter-spacing: 2px;
+  text-align: center;
+}
+.herosection button {
+  position: absolute;
+  top: 75%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* Donate section style */
+
+.donate_section {
+  height: 80vh;
+  background-color: #fff;
+  position: relative;
+}
+.donate_section h2 {
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #121212;
+  letter-spacing: 2px;
+  text-align: center;
+}
+
+.donate_section p {
+  position: absolute;
+  width: 40%;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #707070;
+  letter-spacing: 2px;
+  text-align: center;
+}
+
+.donate_section .custom {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, 50%);
+  margin-top: 220px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.custom input {
+  width: 40vw;
+  height: 30px;
+  border: 0;
+  border-bottom: 2px solid #dadada;
+  outline: 0;
+  font-size: 18px;
+  color: #111;
+  padding: 5px 0px;
+  background: transparent;
+  text-align: center;
+}
+
+.custom button {
+  position: absolute;
+  top: 80px;
+}
+
+.donate_section .flexbox {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 0;
+  margin-top: 50px;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  place-items: center;
+  justify-items: center;
+}
+
+.donate_section .flex_item {
+  background: #fafafa;
+  box-sizing: border-box;
+  padding: 43px 23px;
+  width: 136px;
+  height: 123px;
+  margin: 22px;
+  color: #17b5ba;
+  font-size:30px;
+  text-align: center;
+  border-radius: 5px;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+}
+
+.active {
+  background-color: #17b4ba28 !important;
+  color: #17b5ba;
+  border: 2px solid #17b5ba;
+}
+
+/* donation plan style */
+
+.donate_plan {
+  height: 60vh;
+  background-color: #fff;
+  position: relative;
+}
+.donate_plan h2 {
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #121212;
+  letter-spacing: 2px;
+  text-align: center;
+}
+.donate_plan p {
+  position: absolute;
+  width: 40%;
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #707070;
+  letter-spacing: 2px;
+  text-align: center;
+}
+.donate_plan .flexbox {
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  /* padding: 150px; */
+  margin-top: 50px;
+  list-style: none;
+  display: flex;
+  gap: 24px;
+  justify-content: left;
+  align-items: center;
+  place-items: center;
+}
+
+.donate_plan .flex_item {
+  background: #fafafa;
+  box-sizing: border-box;
+  width: 360px;
+  height: 352px;
+  color: #000;
+  box-sizing: border-box;
+  padding: 60px 20px;
+  text-align: left;
+  border-radius: 5px;
+  font-size: 30px;
+  font-weight: 700;
+  gap: 24px;
+  justify-content: center;
+  align-items: center;
+  display: block;
+  position: relative;
+}
+
+.donate_plan .flex_item p {
+  position: absolute;
+  top: 60%;
+  left: 55%;
+  text-align: left;
+  width: 100%;
+  font-size: 16px;
+}
+.col1 {
+  background-color: #4f9da610 !important;
+}
+.col2 {
+  background-color: #ff595910 !important;
+}
+.col3 {
+  background-color: #fff4d6 !important;
+}
+
+
+/* ads section style */
+.ads_section {
+  height: 60vh;
+  padding: 0px 110px 0px 400px;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative; 
+}
+
+.half_width{
+  width: 50%;
+}
+.half_width img{
+  width: 400px;
+  height: 400px;
+  object-fit: cover;
+  border-radius:5px ;
+}
+.half_width p,h2{
+  padding-top: 20px;
+}
+.half_width button{
+  margin-top: 20px;
+}
+.ads_section h2,
+p {
+  width: 60%;
+}
+
+
+/* Newsletter section style */
+
+.subscription_section{
+  height: 30vh;
+  width: 100%;
+  display: flex;
+  /* justify-content: center; */
+  /* align-items: center; */
+  text-align: center;
+  position: relative;
+  padding: 100px 0px;
+}
+
+.subscription_section h2{
+  position: absolute;
+  top: 0%;
+  left: 41%;
+}
+
+.subscription_section p{
+  position: absolute;
+  top: 20%;
+  left: 20%;
+  color: #707070;
+
+}
+
+.subscription_section form{
+  position: absolute;
+  top: 35%;
+  left: 28%;  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 100px 250px;
+  background-color: #FFF4D6;
+}
+
+.subscription_section input{
+  width: 15vw;
+  height:50px;
+  border-radius: 5px 0px 0px 5px;
+  font-size: 18px;
+  color: #111;
+  padding: 5px 0px;
+  background: #D9D9D9;
+  border:0;
+  text-align: left;
+  box-sizing: border-box;
+  padding: 20px;
+}
+
+.subscription_section button{
+  height: 50px;
+  border: 0;
+  border-radius: 0px 5px 5px 0px;
+  text-align: center;
+  padding: 10px;
+}
+
+/* footer style  */
+
+
+.footer{
+  height: 5vh;
+  width: 100%;
+  background-color: #0B0D17;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
