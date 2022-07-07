@@ -168,17 +168,17 @@ p {
 .donate_section .flex_item {
   background: #fafafa;
   box-sizing: border-box;
-  padding: 43px 23px;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
   width: 136px;
   height: 123px;
   margin: 22px;
   color: #17b5ba;
   font-size:30px;
-  text-align: center;
   border-radius: 5px;
   font-weight: 700;
-  display: flex;
-  align-items: center;
 }
 
 .active {
@@ -205,7 +205,7 @@ p {
 }
 .donate_plan p {
   position: absolute;
-  width: 40%;
+  width: 50%;
   top: 30%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -218,32 +218,21 @@ p {
   top: 70%;
   left: 50%;
   transform: translate(-50%, -50%);
-  /* padding: 150px; */
   margin-top: 50px;
   list-style: none;
   display: flex;
   gap: 24px;
-  justify-content: left;
-  align-items: center;
-  place-items: center;
 }
 
 .donate_plan .flex_item {
-  background: #fafafa;
   box-sizing: border-box;
   width: 360px;
   height: 352px;
   color: #000;
-  box-sizing: border-box;
   padding: 60px 20px;
   text-align: left;
   border-radius: 5px;
-  font-size: 30px;
   font-weight: 700;
-  gap: 24px;
-  justify-content: center;
-  align-items: center;
-  display: block;
   position: relative;
 }
 
@@ -292,7 +281,6 @@ p {
   top: 70%;
   left: 50%;
   transform: translate(-50%, -50%);
-  padding: 0;
   margin-top: 50px;
   list-style: none;
   display: flex;
@@ -305,19 +293,11 @@ p {
 .fundraise_section .flex_item {
   position: relative;
   box-sizing: border-box;
-  padding: 5px;
-  box-sizing: border-box;
   padding: 250px 180px;
   width: 136px;
   height: 123px;
   margin: 15px;
   color: #000;
-  font-size:30px;
-  text-align: center;
-  border-radius: 5px;
-  font-weight: 700;
-  display: flex;
-  align-items: center;
   border: 1px solid #f2f2f2;
   border-radius: 15px;
   border-bottom: 5px solid #17b5ba;
@@ -349,6 +329,7 @@ p {
 }
 .fundraise_section .flexbox h6{
   text-align: left;
+  font-size: 18px;
   width: 100%;
   position: absolute;
   top: 92%;
