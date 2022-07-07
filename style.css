@@ -2,6 +2,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
 /* inter font  */
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap");
+
+/* Lobstar font  */
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
 /* Global style  */
 
 * {
@@ -63,29 +67,31 @@ p {
 
 .herosection h1 {
   position: absolute;
-  top: 50%;
+  top: 40%;
   left: 50%;
   transform: translate(-50%, -50%);
   color: #fff;
-  font-size: 60px;
   letter-spacing: 2px;
   text-align: center;
 }
 .herosection p {
   position: absolute;
-  top: 65%;
+  width: 30%;
+  top: 55%;
   left: 50%;
   transform: translate(-50%, -50%);
   color: #fff;
-  font-size: 20px;
   letter-spacing: 2px;
   text-align: center;
 }
 .herosection button {
   position: absolute;
-  top: 75%;
+  top: 70%;
   left: 50%;
   transform: translate(-50%, -50%);
+  font-size: 20px;
+  padding: 20px 16px;
+
 }
 
 /* Donate section style */
@@ -101,7 +107,6 @@ p {
   left: 50%;
   transform: translate(-50%, -50%);
   color: #121212;
-  letter-spacing: 2px;
   text-align: center;
 }
 
@@ -179,7 +184,7 @@ p {
 .active {
   background-color: #17b4ba28 !important;
   color: #17b5ba;
-  border: 2px solid #17b5ba;
+  border: 3px solid #17b5ba;
 }
 
 /* donation plan style */
@@ -191,7 +196,7 @@ p {
 }
 .donate_plan h2 {
   position: absolute;
-  top: 20%;
+  top: 10%;
   left: 50%;
   transform: translate(-50%, -50%);
   color: #121212;
@@ -201,7 +206,7 @@ p {
 .donate_plan p {
   position: absolute;
   width: 40%;
-  top: 35%;
+  top: 30%;
   left: 50%;
   transform: translate(-50%, -50%);
   color: #707070;
@@ -244,91 +249,146 @@ p {
 
 .donate_plan .flex_item p {
   position: absolute;
+  width: 80%;;
   top: 60%;
-  left: 55%;
+  left: 45%;
   text-align: left;
-  width: 100%;
   font-size: 16px;
 }
 .col1 {
-  background-color: #4f9da610 !important;
+  background-color: #4f9da620 !important;
 }
 .col2 {
-  background-color: #ff595910 !important;
+  background-color: #ff595920 !important;
 }
 .col3 {
   background-color: #fff4d6 !important;
 }
 
 
-/* ads section style */
-.ads_section {
-  height: 60vh;
-  padding: 0px 110px 0px 400px;
-  background-color: #fff;
+/* fundraise section style */
+.fundraise_section{
+  height: 80vh;
   display: flex;
-  justify-content: center;
-  align-items: center;
-  position: relative; 
+  position: relative;
 }
 
-.half_width{
-  width: 50%;
+.fundraise_section p{
+  position: absolute;
+  top: 18%;
+  left: 20%;
+  font-size: 20px;
+  font-weight: 600;
 }
-.half_width img{
-  width: 400px;
-  height: 400px;
+
+.fundraise_section h2{
+  position: absolute;
+  top: 25%;
+  left: 20%;
+}
+
+.fundraise_section .flexbox {
+  position: relative;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 0;
+  margin-top: 50px;
+  list-style: none;
+  display: flex;
+  justify-content: left;
+  align-items: center;  
+  
+  /* margin-left:500px; */
+}
+
+.fundraise_section .flex_item {
+  position: relative;
+  box-sizing: border-box;
+  padding: 5px;
+  box-sizing: border-box;
+  padding: 250px 180px;
+  width: 136px;
+  height: 123px;
+  margin: 15px;
+  color: #000;
+  font-size:30px;
+  text-align: center;
+  border-radius: 5px;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  border: 1px solid #f2f2f2;
+  border-radius: 15px;
+  border-bottom: 5px solid #17b5ba;
+}
+
+.fundraise_section .flexbox img{
+  width: 100%;
+  height: 50%;
   object-fit: cover;
-  border-radius:5px ;
+  border-radius: 15px;
+  position: absolute;
+  top: 0%;
+  left: 0%;
 }
-.half_width p,h2{
-  padding-top: 20px;
+.fundraise_section .flexbox h5{
+  width: 90%;
+  position: absolute;
+  top: 52%;
+  left: 5%;
+  text-align: left;
 }
-.half_width button{
-  margin-top: 20px;
+.fundraise_section .flexbox p{
+  text-align: left;
+  width: 95%;
+  position: absolute;
+  top:65%;
+  left: 5%;
+  font-weight: 400;
 }
-.ads_section h2,
-p {
-  width: 60%;
+.fundraise_section .flexbox h6{
+  text-align: left;
+  width: 100%;
+  position: absolute;
+  top: 92%;
+  left: 5%;
 }
 
 
 /* Newsletter section style */
 
 .subscription_section{
-  height: 30vh;
+  height: 60vh;
   width: 100%;
   display: flex;
-  /* justify-content: center; */
-  /* align-items: center; */
   text-align: center;
+  align-items: center;
+  justify-content: center;
   position: relative;
   padding: 100px 0px;
 }
 
 .subscription_section h2{
-  position: absolute;
-  top: 0%;
-  left: 41%;
+  position: absolute; 
+  margin-bottom: 400px;
 }
 
 .subscription_section p{
-  position: absolute;
-  top: 20%;
-  left: 20%;
+  margin-bottom: 250px;
   color: #707070;
 
 }
 
 .subscription_section form{
   position: absolute;
-  top: 35%;
-  left: 28%;  
+  top: 45%;
   display: flex;
   justify-content: center;
   align-items: center;
   padding: 100px 250px;
-  background-color: #FFF4D6;
+  background-color: #4f9da620;
+  border-radius: 10px;
 }
 
 .subscription_section input{
@@ -338,7 +398,7 @@ p {
   font-size: 18px;
   color: #111;
   padding: 5px 0px;
-  background: #D9D9D9;
+  background: #fff;
   border:0;
   text-align: left;
   box-sizing: border-box;
@@ -357,13 +417,28 @@ p {
 
 
 .footer{
-  height: 5vh;
+  height: 20vh;
   width: 100%;
   background-color: #0B0D17;
   color: #fff;
+  position: relative;
+  margin: auto;
   display: flex;
   justify-content: center;
   align-items: center;
-  position: relative;
 }
 
+.middle_footer{
+  margin: 0px 300px;
+  width: 40%;
+  text-align: center;
+}
+.footer p{
+  font-size:14px;
+}
+.footer span{
+  font-family: 'Lobster', cursive;
+  color: #17b5ba;
+  font-size: 36px;
+  letter-spacing: 2px;
+}
